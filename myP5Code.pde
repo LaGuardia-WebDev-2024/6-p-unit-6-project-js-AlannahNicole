@@ -11,9 +11,32 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  
 
-  
+background(251, 252, 252);
+//face
+strokeWeight(3);
+fill(241, 196, 15);
+ellipse(200,200,400,400);
+
+//eyes
+fill(248, 196, 113);
+strokeWeight(3);
+ellipse(140,80,20,80);
+ellipse(250,80,20,80);
+
+//Nose
+strokeWeight(3);
+rect(180,166,30,20)
+
+//mouth
+fill(253, 254, 254)
+strokeWeight(3);
+arc(200,250,200,60,radians(0),radians(180))
+
+
+
+
+
 
 }
 
